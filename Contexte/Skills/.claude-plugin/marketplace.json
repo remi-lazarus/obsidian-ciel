@@ -1,0 +1,16 @@
+{
+  "name": "ciel-vault",
+  "description": "Skills pédagogiques pour le vault CIEL — session-load et session-save",
+  "owner": {
+    "name": "[Prénom Nom]",
+    "email": "prenom.nom@example.com"
+  },
+  "plugins": [
+    {
+      "name": "obsidian",
+      "path": "..",
+      "description": "Skills CIEL pour l'enseignement — session-load et session-save",
+      "version": "1.0.0"
+    }
+  ]
+}

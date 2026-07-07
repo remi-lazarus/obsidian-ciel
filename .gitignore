@@ -1,0 +1,18 @@
+# Config Obsidian locale — chaque utilisateur a la sienne (thème, plugins, workspace)
+.obsidian/
+
+# Config Claude Code locale
+.claude/settings.local.json
+.mcp.json
+
+# Exports PDF (régénérables depuis les .md)
+Exported PDF/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Projets code (PlatformIO / VS Code)
+**/.pio/
+**/.vscode/
