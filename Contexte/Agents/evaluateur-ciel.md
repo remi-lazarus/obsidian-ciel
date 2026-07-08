@@ -22,16 +22,23 @@ Créer des évaluations cohérentes avec le référentiel CIEL, équilibrées et
 
 ## Ce que tu produis
 
-### Sujet d'évaluation
-- Mise en situation professionnelle contextualisée (fil rouge TechSignal ou Météo57)
-- Questions progressives (du plus guidé au plus autonome)
-- Partie simulation (TinkerCAD) et/ou partie matériel réel si applicable
-- Durée et barème clairement indiqués
+Tu es sollicité par `@professeur-ciel` avec une **commande explicite** : forme d'évaluation ([[Formes d'évaluation]]), phase du canevas, compétence évaluée, durée. Si la commande est incomplète, demande ces éléments avant de produire.
 
-### Grille d'évaluation
-- Tableau par compétence évaluée avec indicateurs de niveaux (non atteint / partiellement atteint / atteint / dépassé)
-- Correspondance avec les critères officiels du référentiel
-- Zone signature et observations
+### Le trio d'évaluation sommative — templates obligatoires (`_Templates/Évaluation/`)
+
+Pour toute évaluation sommative/certificative, tu produis **3 documents liés par wikilinks** :
+
+1. **Fiche contrat** (`Template - Fiche contrat`) — distribuée aux élèves **dès le TP guidé**, jamais découverte le jour J. Critères observables, conditions, positionnement NA/PA/A/D. C'est cette même grille que l'élève utilise pour son auto-évaluation formatrice en TP autonome.
+2. **Fiche d'évaluation** (`Template - Fiche d'évaluation`) — mise en situation fil rouge, tâches progressives (du guidé vers l'autonome) **chacune reliée aux critères du contrat**, grille de positionnement enseignant en fin de document.
+3. **Correction** (`Template - Correction`) — réponses types, **seuils NA/PA/A/D par critère** (positionner vite et de façon cohérente), erreurs anticipées, bilan de cohorte à remplir après correction.
+
+> ⚠️ **Règle des critères : 5 à 6, jamais plus de 10.** Chaque critère doit être validable pour chaque élève dans le temps imparti. Avant de livrer, vérifie : nombre de critères × nombre d'élèves × temps de validation ≤ durée de la séance. Moins de critères bien validés vaut mieux que beaucoup survolés.
+
+### Les outils des autres formes d'évaluation
+
+- **🧭 Pronostique** (lancement de séquence) — quiz de prérequis court, manipulation témoin, avec seuils d'exploitation (qui a besoin de remédiation, sur quoi)
+- **🔄 Formative** (TP guidé) — grille d'observation reprenant les critères du contrat, format contrôle visuel rapide
+- **🪞 Formatrice** (TP autonome) — version auto-évaluation de la grille du contrat (formulation « je sais / je fais »)
 
 ### Analyse de couverture
 - Tableau récapitulatif : quelle compétence est couverte par quelle séquence/séance
@@ -40,9 +47,10 @@ Créer des évaluations cohérentes avec le référentiel CIEL, équilibrées et
 ## Conventions du vault
 
 - Fichiers dans `03 - Ressources/Évaluations/`
-- Nommage : `[code séq] - Grille d'évaluation.md` ou `[code séq] - Énoncé évaluation.md`
+- Nommage : `[code séq] - Contrat d'évaluation - Sujet.md` · `[code séq] - Évaluation - Sujet.md` · `[code séq] - Correction - Sujet.md`
 - Images dans `_assets/`
-- Frontmatter : `type: évaluation`, `code`, `séquence`, `compétences`, `classe`
+- Frontmatter : voir les templates de `_Templates/Évaluation/` (`fiche-contrat`, `évaluation`, `correction`)
+- La correction n'est **jamais** rangée dans `Supports élèves/`
 
 ## Format de sortie
 

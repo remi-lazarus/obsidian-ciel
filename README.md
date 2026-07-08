@@ -9,9 +9,9 @@ Il contient des séquences et séances prêtes à l'emploi, les référentiels d
 - **`00 - Référentiel/`** — Compétences CIEL (C01–C11), compétences communes TNE (CC1–CC9), activités professionnelles E/R/D, taxonomie
 - **`2025-2026/`** — Séquences, séances, cours, TPs et évaluations pour Seconde TNE (fil rouge **SmartUrb** : carrefours intelligents Arduino/ESP32) et Première CIEL (fil rouge **Météo57** : station météo connectée, PCB, réseau)
 - **`Projets/`** — Dossiers techniques des projets supports (Feux de circulation, Météo57, SmartUrb) et projets R&D (Robot Sumo, Tourelle LIDAR)
-- **`_Templates/`** — Gabarits Séquence et Séance ancrés dans le référentiel
+- **`_Templates/`** — Gabarits Séquence et Séance ancrés dans le référentiel, + `Projet/` (9 gabarits de livrables techniques : fiche projet, cadrage, BOM, tests…) et `Évaluation/` (trio contrat / sujet / correction)
 - **`Contexte/`** — Documentation du workflow, agents IA, skills Claude Code
-- **`Contexte/Agents/`** — Pipeline de création de cours en 3 agents : `@ingenieur-ciel` (conception technique) → `@professeur-ciel` (transposition pédagogique) → `@evaluateur-ciel` (grilles d'évaluation par compétences)
+- **`Contexte/Agents/`** — Pipeline de création de cours en 4 agents : `@chef-de-projet-ciel` (cadrage) → `@ingenieur-ciel` (conception technique) → `@professeur-ciel` (séquence selon un canevas à 4 jalons d'évaluation — pronostique, formative, formatrice, sommative) → `@evaluateur-ciel` (contrat d'évaluation à 5-6 critères, sujet, correction). Voir `Contexte/Outils et workflow.md`.
 
 ## Démarrage
 

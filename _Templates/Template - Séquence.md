@@ -32,13 +32,15 @@ fil_rouge:
 
 ## 📚 Prérequis
 
-> Ce que l'élève doit savoir ou savoir-faire **avant** d'entrer dans cette séquence.
+> Ce que l'élève doit savoir ou savoir-faire **avant** d'entrer dans cette séquence. Les prérequis sont **vérifiés par une évaluation pronostique en séance de lancement** (voir [[Formes d'évaluation]]) — et les résultats exploités : régulation différenciée en début de phase de découverte.
 
 - Séquence(s) précédente(s) : [[]]
 - Notions techniques attendues :
   - 
 - Compétences déjà travaillées :
   - 
+- **Outil de vérification (pronostique)** : *(quiz, manipulation témoin, questionnement…)*
+- **Si prérequis non validés** : *(remédiation prévue — pour qui, quand, comment)*
 
 ## 📋 Compétences ciblées
 
@@ -48,12 +50,28 @@ fil_rouge:
 |------|----------|-------------|
 | [[Compétences#Cxx\|Cxx]] | | Découverte / Approfondissement / Maîtrise |
 
+## 🧭 Stratégie d'évaluation
+
+> L'évaluation est intégrée **à chaque phase** de la séquence (voir [[Formes d'évaluation]]). Règles : critères partagés avec les élèves dès le TP guidé (les mêmes que l'éval finale) · statut de chaque évaluation **annoncé** (« compte / compte pas ») · chaque évaluation a une **exploitation** (régulation, feedback, note). Les outils (quiz, grilles, sujets) sont produits par `@evaluateur-ciel` — mais leur **place dans le déroulé** se décide ici.
+
+| Phase | Forme | Outil | Compte ? | Exploitation |
+|-------|-------|-------|----------|--------------|
+| Lancement | 🧭 Pronostique | | Non | Régulation différenciée |
+| TP/TD guidé | 🔄 Formative | *(grille d'observation, contrôle visuel des réalisations)* | Non | Feedback + ajustement |
+| TP autonome | 🪞 Formatrice | *(auto-évaluation sur la grille de l'éval finale)* | Non | L'élève se positionne avant l'éval |
+| Éval finale | 🏁 Sommative | *(sujet + grille NA/PA/A/D)* | Oui | Positionnement compétences |
+
 ## 🗓️ Découpage en séances
 
-| N° | Titre | Durée | Compétences | Statut |
-|----|-------|-------|-------------|--------|
-| [[{{code}} - SÉA01 - \|SÉA01]] | | h | | ⬜ |
-| [[{{code}} - SÉA02 - \|SÉA02]] | | h | | ⬜ |
+> Canevas type — adapter le nombre de séances à la taille de la séquence (fusionner ou dédoubler des phases), mais **garder les 4 jalons d'évaluation**.
+
+| N° | Phase | Titre | Durée | Évaluation | Statut |
+|----|-------|-------|-------|------------|--------|
+| [[{{code}} - SÉA01 - \|SÉA01]] | Lancement — mise en situation + objectifs + prérequis | | h | 🧭 Pronostique | ⬜ |
+| [[{{code}} - SÉA02 - \|SÉA02]] | Découverte (manipulation) → formalisation (cours) — inclut la régulation post-diagnostic | | h | — | ⬜ |
+| [[{{code}} - SÉA03 - \|SÉA03]] | TP/TD guidé | | h | 🔄 Formative | ⬜ |
+| [[{{code}} - SÉA04 - \|SÉA04]] | TP en autonomie | | h | 🪞 Formatrice | ⬜ |
+| [[{{code}} - SÉA05 - \|SÉA05]] | Évaluation finale + bilan de séquence | | h | 🏁 Sommative | ⬜ |
 
 ## 📦 Ressources nécessaires
 

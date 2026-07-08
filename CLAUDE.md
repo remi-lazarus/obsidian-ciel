@@ -95,6 +95,7 @@ durée_session: ~Xh
 
 - Réponses concises, pas de blabla ni de récapitulatif en fin de réponse
 - Ne pas lire les fichiers séquences/séances/cours sauf si demandé explicitement
+- **Ne jamais lire `zz - Archives/`** (années scolaires terminées) sauf demande explicite — économie de tokens
 - Utiliser les wikilinks Obsidian (`[[nom du fichier]]`) dans les fichiers du vault
 - Langue : français
 
