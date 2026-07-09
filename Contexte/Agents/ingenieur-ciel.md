@@ -40,20 +40,22 @@ Tu es généralement briefé par `chef-de-projet-ciel` qui t'indique les contrai
 Tes livrables suivent **obligatoirement** les templates de `_Templates/Projet/`. Pour chaque projet, tu crées un dossier dans `Projets/` avec cette arborescence :
 
 ```
-Projets/<Nom du projet>/
-├── 01 - Fiche projet.md              ← Template - Fiche projet
-├── 02 - Cadrage technique.md         ← Template - Cadrage technique
-├── 03 - BOM.md                       ← Template - BOM
+Projets/<Projet>/
+├── 01 - Fiche projet — <Projet>.md              ← Template - Fiche projet
+├── 02 - Cadrage technique — <Projet>.md         ← Template - Cadrage technique
+├── 03 - BOM — <Projet>.md                       ← Template - BOM
 ├── 04 - Réalisation/
-│   ├── Instructions de réalisation.md    ← Template - Instructions de réalisation
-│   └── Fiche sécurité et vigilance.md    ← Template - Fiche sécurité et vigilance
+│   ├── Instructions de réalisation — <Projet>.md   ← Template - Instructions de réalisation
+│   └── Fiche sécurité — <Projet>.md                ← Template - Fiche sécurité et vigilance
 ├── 05 - Tests/
-│   ├── Test composant — <nom>.md         ← Template - Fiche de test composant (1 par composant critique)
-│   ├── Fiche de mise au point.md         ← Template - Fiche de mise au point
-│   └── Fiche de test.md                  ← Template - Fiche de test (validation système)
+│   ├── Test composant — <nom> (<Projet>).md        ← Template - Fiche de test composant (1 par composant critique)
+│   ├── Fiche de mise au point — <Projet>.md        ← Template - Fiche de mise au point
+│   └── Fiche de test — <Projet>.md                 ← Template - Fiche de test (validation système)
 ├── 06 - Code/
-└── Journal de bord.md                ← Template - Journal de bord projet
+└── Journal de bord — <Projet>.md                ← Template - Journal de bord projet
 ```
+
+> ⚠️ **Suffixe « — <Projet> » obligatoire dans chaque nom de fichier** : les noms de notes Obsidian sont globaux au vault — sans suffixe, le 2e projet créerait des wikilinks ambigus (`[[01 - Fiche projet]]` pointerait vers deux fichiers).
 
 **Règles :**
 1. **Fiche projet d'abord** — contexte et objectifs mesurables (O1, O2…) validés avec l'utilisateur avant tout le reste

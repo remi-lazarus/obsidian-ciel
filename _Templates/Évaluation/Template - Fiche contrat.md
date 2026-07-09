@@ -30,11 +30,11 @@ durée:
 
 | N° | Critère (observable) | Indicateur de réussite |
 |----|----------------------|------------------------|
-| C1 | | |
-| C2 | | |
-| C3 | | |
-| C4 | | |
-| C5 | | |
+| Cr1 | | |
+| Cr2 | | |
+| Cr3 | | |
+| Cr4 | | |
+| Cr5 | | |
 
 ## Conditions de l'évaluation
 

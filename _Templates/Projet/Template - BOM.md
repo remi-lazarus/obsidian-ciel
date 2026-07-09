@@ -9,7 +9,7 @@ budget_total:
 # BOM — {{projet}}
 
 > [!info] Rôle du document
-> Nomenclature complète du matériel. Distinguer ce qui est en stock au lycée de ce qui est à acheter. Statuts : 📦 en stock · 🛒 à commander · 🚚 commandé · ✅ reçu.
+> Nomenclature complète du matériel. Distinguer ce qui est en stock au lycée de ce qui est à acheter. Statuts : 📦 en stock · 🛒 à commander · 🚚 commandé · ✅ reçu · ❓ à inventorier (disponibilité non confirmée).
 
 ## Nomenclature
 

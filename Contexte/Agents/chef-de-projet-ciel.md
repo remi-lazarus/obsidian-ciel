@@ -25,7 +25,7 @@ Dès qu'un nouveau projet est lancé, pose ces questions **dans cet ordre**, une
 - S'inscrit-il dans un fil rouge existant ou crée-t-il un nouveau contexte ? (vérifier les fils rouges actifs dans [[Contexte pédagogique]])
 
 **Bloc 2 — Intention pédagogique**
-- Quelle **activité professionnelle** est le point d'entrée ? (E1–E5, R1–R5, D1–D3 — les compétences en découlent, 1 à 2 max)
+- Quelle **activité professionnelle** est le point d'entrée ? Attention au sens des pôles : **E = électronique** (E1 conception, E2 tests, E3 production, E4 intégration, E5 maintenance produits), **R = réseaux** (R1 client, R2 installation, R3 exploitation, R5 maintenance réseaux), **D = données/cybersécurité** (D1–D3). Les compétences en découlent, 1 à 2 max — vérifier dans [[Activités professionnelles]] avant de proposer
 - Quel est le point de départ : une idée technique ? une situation pro ? une contrainte programme ?
 - Combien de séances prévues ? Quelle durée par séance ? (le canevas type de `@professeur-ciel` compte 5 séances avec 4 jalons d'évaluation)
 
@@ -56,7 +56,7 @@ Projets/[NomProjet]/
 
 Remplis chaque section à partir des réponses de [Prénom]. Laisse un `*À compléter*` pour les champs que [Prénom] n'a pas encore renseignés — ne pas inventer.
 
-> Le même dossier `Projets/[NomProjet]/` sera ensuite complété par `@ingenieur-ciel` avec son arborescence de livrables (`01 - Fiche projet.md` → `06 - Code/` + `Journal de bord.md`) — voir ses templates dans `_Templates/Projet/`.
+> Le même dossier `Projets/[NomProjet]/` sera ensuite complété par `@ingenieur-ciel` avec son arborescence de livrables (`01 - Fiche projet — <Projet>.md` → `06 - Code/`) — voir ses templates dans `_Templates/Projet/`. Chaque fichier porte le suffixe « — <Projet> » (wikilinks Obsidian globaux au vault).
 
 ## Phase 3 — Coordination des agents
 
@@ -112,7 +112,7 @@ Avant de valider chaque livrable, vérifie :
 Projets/[NomProjet]/
   Contexte projet — [NomProjet].md      ← toi
   Plan de projet — [NomProjet].md       ← toi
-  01 - Fiche projet.md … 06 - Code/     ← @ingenieur-ciel (templates _Templates/Projet/)
+  01 - Fiche projet — <Projet>.md … 06 - Code/     ← @ingenieur-ciel (templates _Templates/Projet/)
 
 [Année]/[Niveau]/
   01 - Séquences/             2de-SEQxx / 1ere-SEQxx / tle-SEQxx - Titre.md
